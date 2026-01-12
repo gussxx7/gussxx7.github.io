@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Interaktif - Bagoes Prayogie</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+   
+    <meta name="description" content="Portofolio Bagoes Prayogie - Sistem Komputer ITB STIKOM BALI. Fokus pada Web Development dan UI/UX Design.">
+    <meta name="keywords" content="Bagoes Prayogie, Web Developer Bali, ITB STIKOM BALI, Portofolio Developer">
+    <meta property="og:title" content="Portofolio Bagoes Prayogie">
+    <meta property="og:description" content="Mengubah ide menjadi solusi digital yang menarik.">
+    <meta property="og:image" content="image.png">
+    <meta property="og:url" content="https://url-web-anda.com">
+</head>
+<body>
+
+    <header>
+        <nav class="container">
+            <div class="logo">Portofolio Saya</div>
+            <ul class="nav-links">
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#about">Tentang</a></li>
+                <li><a href="#projects">Karya</a></li>
+                <li><a href="#contact">Kontak</a></li>
+                <li><button id="mode-toggle">☀️</button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="hero-section" class="reveal">
+            <div class="container" class="reveal.active">
+                <p class="greeting">Halo, Saya</p>
+                <h1 class="name-title">BAGOES PRAYOGIE</h1>
+                
+                <div class="typing-container">
+                    <span id="typing-text"></span><span class="cursor">|</span>
+                </div>
+                
+                <p class="tagline">Mengubah ide menjadi solusi digital yang menarik dan user-centric.</p>
+                
+                <a href="#projects" class="cta-button animated-button">
+                    Jelajahi Karya Saya <span>&rarr;</span>
+                </a>
+                <a href="cv-bagoes.pdf" class="cta-button secondary-button" download>
+                    <i class="fas fa-download"></i> Unduh CV
+                </a>
+            </div>
+        </section>
+
+        <section id="about" class="about-section" class="reveal">
+            <div class="container" class="reveal.active">
+                <h2>👋 Lebih Dekat Tentang Saya</h2>
+                
+                <div class="profile-photo-container">
+                    <img src="image.png" alt="Foto Profil Anda" class="profile-photo">
+                </div>
+
+                <p class="intro-text">
+                    Saya percaya bahwa desain terbaik adalah perpaduan antara estetika dan fungsionalitas. Sejak tahun 2022 saya belajaruntuk menerjemahkan sebuah visi menjadi pengalaman digital yang intuitif dan berkesan.
+                </p>
+                </div>
+        </section>
+            
+
+                <h3>📊 Keahlian Teknis</h3>
+                <div class="skills-grid" class="reveal.active">
+                    <div class="skill-card" data-skill-level="95">
+                        <i class="fab fa-html5"></i>
+                        <h4>HTML & CSS</h4>
+                        <p>Intermediate</p>
+                    </div>
+
+                    <div class="skill-card" data-skill-level="85">
+                        <i class="fab fa-react"></i>
+                        <h4>React & Next.js</h4>
+                        <p>Basic/Intermediate</p>
+                    </div>
+
+                    <div class="skill-card" data-skill-level="90">
+                        <i class="fas fa-palette"></i>
+                        <h4>UI/UX Design</h4>
+                        <p>Intermediate</p>
+                    </div>
+                    
+                    <div class="skill-card" data-skill-level="75">
+                        <i class="fab fa-figma"></i>
+                        <h4>Figma/Sketch</h4>
+                        <p>Expert</p>
+                    </div>
+                    
+                    <div class="skill-card" data-skill-level="60">
+                        <i class="fab fa-node-js"></i>
+                        <h4>Node.js/Backend</h4>
+                        <p>Basic/Intermediate</p>
+                    </div>
+                    
+                    <div class="skill-card" data-skill-level="80">
+                        <i class="fas fa-code-branch"></i>
+                        <h4>Git & Versioning</h4>
+                        <p>Basic</p>
+                    </div>
+
+                    </div>
+
+                <h3>⏳ Jejak Perjalanan</h3>
+                <div class="timeline">
+                    <div class="timeline-item"> 
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4>2022 - 2026: Pendidikan Sarjana | ITB STIKOM BALI / SISTEM KOMPUTER</h4>
+                            <p>Memperoleh gelar S1 di bidang Sistem Komputer, dengan fokus pada Programming.</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                
+
+        <section id="projects" class="projects-section" class="reveal">
+            <div class="container" class="reveal.active">
+                <h2>✨ Kumpulan Karya Pilihan</h2>
+                
+                <div class="filter-controls">
+                    <button class="filter-btn active" data-filter="all">Semua</button>
+                    <button class="filter-btn" data-filter="web-design">Web Design</button>
+                    <button class="filter-btn" data-filter="ui-ux">UI/UX Apps</button>
+                    <button class="filter-btn" data-filter="branding">Branding</button>
+                </div>
+
+                <div class="project-grid">
+                    
+                    <div class="project-card" data-category="web-design branding">
+                        <img src="image 3.png" alt="Project A" class="project-image">
+                        <div class="project-info">
+                            <h4>Website E-commerce Modern</h4>
+                            <p>Desain responsif dan rebranding untuk toko mebel online.</p>
+                            <span class="category-tag web-design">Web Design</span>
+                            <a href="#" class="view-case-study">Lihat Studi Kasus &rarr;</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-category="ui-ux">
+                        <img src="image 2.png" alt="Project B" class="project-image">
+                        <div class="project-info">
+                            <h4>Website kasir</h4>
+                            <p>Platform yang intuitif untuk manajemen penjualan yang efisien.</p>
+                            <span class="category-tag ui-ux">Management Web</span>
+                            <a href="#" class="view-case-study">Lihat Studi Kasus &rarr;</a>
+                        </div>
+                    </div>
+
+                    <div class="project-card" data-category="branding">
+                        <img src="AnindyaHome.png" alt="Project C" class="project-image">
+                        <div class="project-info">
+                            <h4>Brand Identity AnindyaHome</h4>
+                            <p>Pengembangan logo, palet warna, dan guideline merek.</p>
+                            <span class="category-tag branding">Branding</span>
+                            <a href="#" class="view-case-study">Lihat Studi Kasus &rarr;</a>
+                        </div>
+                    </div>
+                    
+                    </div>
+            </div>
+        </section>
+
+                <p class="closing-cta">
+                    Tertarik untuk berkolaborasi? Mari kita <a href="#contact" class="link-highlight">mulai proyek Anda hari ini</a>.
+                </p>
+
+            </div>
+        </section>
+        <section id="contact" class="contact-section full-width-layout" class="reveal">
+            <div class="contact-background-effect"></div> <div class="container contact-content-wrapper" class="reveal.active">
+                <h2>📞 Mari Bicara!</h2>
+                
+                <div class="glass-card">
+                    
+                    <div class="contact-layout-new">
+                        
+                        <div class="contact-form-container">
+                            <h3>Kirim Pesan Cepat</h3>
+                            <form id="contact-form-new">
+                                <div class="form-group">
+                                    <input type="text" id="name-new" name="name" required placeholder="Nama Lengkap">
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" id="email-new" name="email" required placeholder="Alamat Email">
+                                </div>
+                                <div class="form-group">
+                                    <textarea id="message-new" name="message" rows="4" required placeholder="Apa yang bisa saya bantu?"></textarea>
+                                </div>
+                                
+                                <button type="submit" class="submit-button submit-glass">
+                                    Kirim Sekarang <span>&rarr;</span>
+                                </button>
+                                
+                                <p id="form-status-new" class="form-status-message"></p>
+                            </form>
+                        </div>
+
+                        <div class="contact-info-container">
+                            <h3>Akses Langsung</h3>
+                            <div class="info-item-new">
+                                <p class="icon-text">
+                                    <i class="fas fa-envelope"></i> Email: <a href="mailto:nama.anda@email.com">bagoes@email.com</a>
+                                </p>
+                            </div>
+                            <div class="info-item-new">
+                                <p class="icon-text">
+                                    <i class="fas fa-map-marker-alt"></i> Lokasi: Denpasar, Bali, Indonesia
+                                </p>
+                            </div>
+                            
+                            <div class="social-links-new">
+                                <a href="https://linkedin.com/in/profilanda" target="_blank" class="social-glass linkedin" title="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                                <a href="https://behance.net/profilanda" target="_blank" class="social-glass behance" title="Behance"><i class="fab fa-behance"></i></a>
+                                <a href="https://github.com/profilanda" target="_blank" class="social-glass github" title="GitHub"><i class="fab fa-github"></i></a>
+                                <a href="https://twitter.com/profilanda" target="_blank" class="social-glass twitter" title="Twitter/X"><i class="fab fa-twitter"></i></a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        
+    </main>
+
+    <footer>
+        <div class="container">© 2025 Portofolio Bagoes Prayogie.</div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
